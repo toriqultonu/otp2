@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- EditText for first phone number -->
+    <EditText
+        android:id="@+id/phoneInput1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter first phone number"
+        android:inputType="phone" />
+
+    <!-- EditText for second phone number -->
+    <EditText
+        android:id="@+id/phoneInput2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter second phone number"
+        android:inputType="phone"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
